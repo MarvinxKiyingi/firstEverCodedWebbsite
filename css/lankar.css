@@ -10,7 +10,10 @@ body {
 #menybar,
 #section,
 #middle,
-#meny {
+#meny,
+#middle-four,
+#mid-content-four-bottom,
+#mid-content-four-top {
   margin-left: auto;
   margin-right: auto;
 }
@@ -81,39 +84,101 @@ div {
                          The Middle part
                     **************************************************/
 #section {
-  background-image: url(/assets/scheme_chips_black_computer_elements_29651_1920x1080.jpg);
+  background-image: url(/assets/pat16.png);
   height: auto;
 }
-#middle {
+#middle-four {
   width: 880px;
   height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#mid-content {
-  border: 1px solid black;
-  background: rgba(255, 255, 255, 0.9);
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
+}
+#mid-content-four {
+  border: 2px solid black;
+  background-color: #ffffff;
   height: auto;
-  box-shadow: 0 0 90px #0d3557;
+  opacity: 0.7;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
-#mid-content h1 {
+#header-text {
   font-family: Georgia, serif;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #017a8d;
-  font-size: 220%;
-}
-#mid-content p {
-  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  font-size: 170%;
   text-align: center;
   color: black;
-  padding: 26px;
-  font-weight: 300;
-  line-height: 170%;
+  font-size: 220%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#knappOne,
+#knappTwo,
+#knappTree {
+  width: 360px;
+  height: 170px;
+  display: inline-flex;
+}
+#knappOne h1,
+#knappTwo h1,
+#knappTree h1 {
+  font-family: Courier New;
+  height: 40px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+}
+#knappOne {
+  color: white;
+  background-color: #5d4c46;
+}
+#knappTwo {
+  background-color: #7b8d8e;
+  color: white;
+}
+#knappTree {
+  background-color: #e45641;
+  color: white;
+}
+#mid-content-four-top {
+  width: 732px;
+}
+#mid-content-four-bottom {
+  width: 364px;
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+#mid-content-four a {
+  text-decoration: none;
+  position: relative;
+  color: white;
+}
+#mid-content-four a:visited {
+  color: White;
+}
+#mid-content-four a:hover {
+  color: black;
+}
+#mid-content-four a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#mid-content-four a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 /*************************************************
                          The footer

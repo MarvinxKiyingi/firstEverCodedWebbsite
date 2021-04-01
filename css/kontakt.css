@@ -1,6 +1,6 @@
 /*************************************************
                  The Header
-            **************************************************/
+**************************************************/
 body {
   margin: 0;
   padding: 0;
@@ -10,7 +10,9 @@ body {
 #menybar,
 #section,
 #middle,
-#meny {
+#meny,
+#middle-two,
+#mid-content-two-bottom {
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,45 +81,96 @@ div {
 
 /*************************************************
                          The Middle part
-                    **************************************************/
+**************************************************/
 #section {
-  background-image: url(/assets/scheme_chips_black_computer_elements_29651_1920x1080.jpg);
+  background-image: url(/assets/pat16.png);
   height: auto;
 }
-#middle {
+#middle-two {
   width: 880px;
   height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
-
-#mid-content {
-  border: 1px solid black;
-  background: rgba(255, 255, 255, 0.9);
-  padding-top: 50px;
-  padding-bottom: 20px;
+#mid-content-two {
+  border: 2px solid white;
+  background-color: #ffffff;
   height: auto;
-  box-shadow: 0 0 90px #0d3557;
+  opacity: 0.7;
 }
-#mid-content h1 {
-  font-family: Georgia, serif;
+#Message {
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+#Message {
+  background-color: white;
+  width: 865px;
+  height: 550px;
+  box-shadow: 0 0 30px #0d3557;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#Message h1,
+h2 {
+  color: #0d3557;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+#Message h1 {
+  font-size: 38px;
   margin-bottom: 20px;
-  text-align: center;
-  color: #017a8d;
-  font-size: 220%;
 }
-#mid-content p {
-  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-  font-size: 170%;
-  text-align: center;
-  color: black;
-  padding: 26px;
-  font-weight: 300;
-  line-height: 170%;
+#Message h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+#Message p {
+  color: #0d3557;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 15px;
+}
+#form {
+  margin-left: 80px;
+}
+#form input {
+  width: 500px;
+  height: 25px;
+  font-size: 17px;
+  background-color: white;
+  border: #386a93;
+  color: #0d3557;
+  box-shadow: 0 0 30px #0d3557;
+  font-family: 'Courier New', Courier, monospace;
+  float: right;
+  margin-right: 100px;
+}
+#textarea-wrapper p {
+  margin: 0;
+}
+textarea {
+  width: 690px;
+  height: 120px;
+  background-color: white;
+  font-size: 17px;
+  color: #0d3557;
+  border: #386a93;
+  box-shadow: 0 0 30px #0d3557;
+  font-family: 'Courier New', Courier, monospace;
+}
+#Message button {
+  color: #0d3557;
+  font-size: 20px;
+  width: 80px;
+  background-color: white;
+  border: 3px solid #0d3557;
+  border-radius: 10px;
+  float: right;
+  margin-right: 95px;
 }
 /*************************************************
                          The footer
-                    **************************************************/
+ **************************************************/
 #footer {
   background: #212121;
 }
