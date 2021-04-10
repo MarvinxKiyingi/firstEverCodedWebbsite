@@ -20,7 +20,7 @@ body {
 #header {
   height: 220px;
   border-bottom: 5px solid #0c6b71;
-  background: #1d1d1d url(/assets/pat14.png) repeat;
+  background: #1d1d1d url(../assets/pat14.png) repeat;
 }
 * {
   margin: 0;
@@ -87,7 +87,7 @@ img {
                  The Middle part
             **************************************************/
 #section {
-  background-image: url(/assets/pat16.png);
+  background-image: url(../assets/pat16.png);
   height: auto;
 }
 #middle-two {
@@ -98,7 +98,7 @@ img {
   box-shadow: 0 0 30px #0d3557;
   background-color: #ffffff;
   height: auto;
-  background-image: url(/assets/pat16.png);
+  background-image: url(../assets/pat16.png);
   margin-top: -10px;
   margin-bottom: -9px;
   padding-bottom: 10px;
